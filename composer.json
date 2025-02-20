@@ -1,0 +1,11 @@
+{
+    "name": "yam/hexlet-php",
+    "description": "package-for-studing",
+    "authors": [
+        {
+            "name": "yakov home",
+            "email": "yakovmedvedev@ya.ru"
+        }
+    ],
+    "require": {}
+}
