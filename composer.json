@@ -1,13 +1,21 @@
 {
     "name": "yam/hexlet-php",
-    "description": "package-for-studing",
+    "description": "project for studing at hexlet",
+    "autoload": {
+        "psr-4": {
+            "Yam\\HexletPhp\\": "src/"
+        },
+	        "autoload": {
+        "files": [
+            "src/Runner.php"
+		]
+    },
     "authors": [
         {
-            "name": "yakov home",
-            "email": "yakovmedvedev@ya.ru"
+            "name": "Yakov Medvedev",
+            "email": "yakovmedvedev@gmail.com"
         }
     ],
-    "require": {
-        "illuminate/collections": "^11.41"
-    }
+    "require": {}
+	}
 }
