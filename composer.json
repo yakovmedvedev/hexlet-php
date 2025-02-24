@@ -7,5 +7,7 @@
             "email": "yakovmedvedev@ya.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^11.41"
+    }
 }

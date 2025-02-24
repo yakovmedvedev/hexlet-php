@@ -1,0 +1,1 @@
+ composer config -g repos.packagist composer https://packagist.org.ru
