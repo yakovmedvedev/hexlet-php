@@ -1,1 +1,3 @@
  composer config -g repos.packagist composer https://packagist.org.ru
+
+export PATH=$PATH:/home/yam/.config/composer
