@@ -2,14 +2,10 @@
     "name": "yam/hexlet-php",
     "description": "project for studing at hexlet",
     "autoload": {
-        "psr-4": {
-            "Yam\\HexletPhp\\": "src/"
-        },
-	        "autoload": {
         "files": [
             "src/Runner.php"
 		]
-    },
+	},
     "authors": [
         {
             "name": "Yakov Medvedev",
@@ -17,5 +13,4 @@
         }
     ],
     "require": {}
-	}
 }
