@@ -1,3 +1,7 @@
  composer config -g repos.packagist composer https://packagist.org.ru
 
 export PATH=$PATH:/home/yam/.config/composer
+https://jsonlint.com/
+https://getcomposer.org/
+https://github.com/yakovmedvedev/hexlet-php.git
+https://unix.stackexchange.com/
