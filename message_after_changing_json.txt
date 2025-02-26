@@ -1,0 +1,21 @@
+yam@YAM:~/hexlet-php$ composer validate
+./composer.json is valid, but with a few warnings
+See https://getcomposer.org/doc/04-schema.md for details on the schema
+# General warnings
+- No license specified, it is recommended to do so. For closed-source software you may use "proprietary" as license.
+yam@YAM:~/hexlet-php$ composer update
+Loading composer repositories with package information
+Updating dependencies
+Nothing to modify in lock file
+Installing dependencies from lock file (including require-dev)
+Nothing to install, update or remove
+Generating autoload files
+yam@YAM:~/hexlet-php$ composer dump-autoload
+Generating autoload files
+Generated autoload files
+yam@YAM:~/hexlet-php$ php index.php
+PHP Fatal error:  Uncaught Error: Call to undefined function Hexlet\Php\Runner\collect() in /home/yam/hexlet-php/src/Runner.php:7
+Stack trace:
+#0 /home/yam/hexlet-php/index.php(10): Hexlet\Php\Runner\run()
+#1 {main}
+  thrown in /home/yam/hexlet-php/src/Runner.php on line 7
